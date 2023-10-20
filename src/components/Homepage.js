@@ -12,8 +12,8 @@ function Homepage() {
           gap: '10px',
         }}
       >
-        <Link style={{ color: 'white', fontSize: '18px' }} to={'/signin'}>
-          Signin
+        <Link style={{ color: 'white', fontSize: '18px' }} to={'/register'}>
+          Register
         </Link>
         <Link style={{ color: 'white', fontSize: '18px' }} to={'/login'}>
           Login

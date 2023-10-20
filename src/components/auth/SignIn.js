@@ -4,7 +4,7 @@ import './signin.css'
 import { auth } from '../../firebase'
 import { Link, useNavigate } from 'react-router-dom'
 
-function SignIn() {
+function Register() {
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
 
@@ -62,4 +62,4 @@ function SignIn() {
   )
 }
 
-export default SignIn
+export default Register
